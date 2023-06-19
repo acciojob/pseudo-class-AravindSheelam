@@ -1,10 +1,12 @@
 /*  your css code here. If applicable */
-p::before{
+div::after{	
+	content:"After Element";	
+	color:red;	
+	font-size:20px;
+}
+/*  your css code here. If applicable */
+div::before{	
 	content:"Before Element";
-	color:red;
-}
-
-p::after{
-	content:"After Element";
-	color:red;
-}
+			color:red;	
+			font-size:20px;
+		   } 
